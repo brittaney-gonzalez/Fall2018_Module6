@@ -26,10 +26,3 @@ block content
         input#authorid.form-control(type='hidden',name='authorid', required='true', value=author._id )
 
       button.btn.btn-primary(type='submit') Delete
-Step 4: Add a delete control
-Add a Delete control to the Author detail view.
-Open the author_detail.jade view and add the following lines at the bottom.
-
-hr
-p
-  a(href=author.url+'/delete') Delete author
